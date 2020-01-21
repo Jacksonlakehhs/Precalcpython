@@ -12,7 +12,7 @@ distance= (((x2-x1)**2)+((y2-y1)**2))**(.5)
 print("Your distance is", distance)
 """
 
-A= float(input("Enter : "))
-P= float(input("Enter : "))
-r= float(input("Enter : "))
-n= float(input("Enter : "))
+A= float(input("Enter A: "))
+P= float(input("Enter P: "))
+r= float(input("Enter r: "))
+n= float(input("Enter n: "))
