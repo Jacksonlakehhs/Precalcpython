@@ -17,6 +17,8 @@ P= float(input("Enter P: "))
 r= float(input("Enter r: "))
 n= float(input("Enter n: "))
 
-time_function = (math.log((A/P),(1+(r/n))))/r
+#time_function = (math.log((A/P),(1+(r/n))))/r
+
+time_function = (math.log(A/P))/(n*(math.log(1+(r/n),10)))
 
 print("t = ", time_function)
