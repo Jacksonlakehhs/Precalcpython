@@ -16,3 +16,5 @@ A= float(input("Enter A: "))
 P= float(input("Enter P: "))
 r= float(input("Enter r: "))
 n= float(input("Enter n: "))
+
+timefunction = 
