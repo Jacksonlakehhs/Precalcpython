@@ -31,7 +31,7 @@ print("t = ", round(t, 3))
 """
 
 
-
+"""
 x1 = float(input("Enter x1: "))
 y1 = float(input("Enter y1: "))
 x2= float(input("Enter x2: "))
@@ -43,4 +43,15 @@ print("The second point is ({0}, {1}".format(x2, y2))
 
 y3 = (y1*((y2/y1)**((x3-x1)/(x2-x1))))
 
-print("Your third point is ({0}, {1})".format(x3, y3))
+print("The third point is ({0}, {1})".format(x3, y3))
+"""
+
+A = float(input("Enter A: "))
+B = float(input("Enter B: "))
+C = float(input("Enter C: "))
+D = float(input("Enter D: "))
+E = float(input("Enter E: "))
+F = float(input("Enter F: "))
+
+x = (F*B-E*C)/(B*D-E*A)
+y = (F-((D*F*B-D*E*C)/(B*D-E*A)))/E
