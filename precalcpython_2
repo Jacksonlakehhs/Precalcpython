@@ -1,1 +1,15 @@
+x1 = float(input("x1: "))
+y1 = float(input("y1: "))
+x2 = float(input("x2: "))
+y2 = float(input("y2: "))
 
+if y2-y1 == 0:
+    eq = ("y = {0}".format(y1))
+elif x2-x1 == 0:
+    eq = ("x = {0}".format(x1))
+elif y2-y1 == 0 and x2-x1 == 0:
+    eq = "uhhhh"
+else:
+    eq = (y2-y1)/(x2-x1)
+
+print(eq)
