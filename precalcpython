@@ -16,7 +16,7 @@ print("Your distance is", distance)
 
 """
 
-
+"""
 A= float(input("Enter A: "))
 P= float(input("Enter P: "))
 r= float(input("Enter r: "))
@@ -26,5 +26,11 @@ n= float(input("Enter n: "))
 t = (((log10(A/P))/(log10(1+(r/n))))/n)
 
 print("t = ", round(t, 3))
+"""
 
 
+
+x1 = float(input("Enter x1: "))
+y1 = float(input("Enter y1: "))
+x2= float(input("Enter x2: "))
+y2= float(input("Enter y2: "))
