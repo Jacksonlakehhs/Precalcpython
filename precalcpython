@@ -46,6 +46,9 @@ y3 = (y1*((y2/y1)**((x3-x1)/(x2-x1))))
 print("The third point is ({0}, {1})".format(x3, y3))
 """
 
+
+
+"""
 A = float(input("Enter A: "))
 B = float(input("Enter B: "))
 C = float(input("Enter C: "))
@@ -57,3 +60,5 @@ x = (F*B-E*C)/(B*D-E*A)
 y = (F-((D*F*B-D*E*C)/(B*D-E*A)))/E
 
 print("X = {0}  and   Y = {1}".format(x,y))
+"""
+
