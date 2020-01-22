@@ -1,5 +1,8 @@
 import math
 from math import log10
+from math import cos
+from math import asin
+from math import degrees
 
 
 x1 = float(input("Enter x1: "))
@@ -27,6 +30,10 @@ time_function = (math.log(A/P))/(n*(math.log(1+(r/n))))
 
 
 
-sidelength1 = float(input("Enter triangle side length #1: "))
-sidelength2 = float(input("Enter triangle side length #2: "))
-sidelength3 = float(input("Enter triangle side length #3: "))
+sl1 = float(input("Enter triangle side length #1: "))
+sl2 = float(input("Enter triangle side length #2: "))
+sl3 = float(input("Enter triangle side length #3: "))
+
+angle1 = acos(((sl1**2)-(sl2**2)-(sl3**2))/(-2*sl2*sl3))
+angle2 = 
+angle3 = 180-angle1-angle2
