@@ -22,10 +22,9 @@ P= float(input("Enter P: "))
 r= float(input("Enter r: "))
 n= float(input("Enter n: "))
 
-#time_function = (math.log((A/P),(1+(r/n))))/n
 
-time_function = (((log10(A/P))/(log10(1+(r/n))))/n)
+t = (((log10(A/P))/(log10(1+(r/n))))/n)
 
-print("t = ", round(time_function, 3))
+print("t = ", round(t, 3))
 
 
