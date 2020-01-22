@@ -4,7 +4,7 @@ from math import cos
 from math import asin
 from math import degrees
 
-
+"""
 x1 = float(input("Enter x1: "))
 y1 = float(input("Enter y1: "))
 x2= float(input("Enter x2: "))
@@ -12,9 +12,9 @@ y2= float(input("Enter y2: "))
 
 distance= (((x2-x1)**2)+((y2-y1)**2))**(.5)
 
-#print("Your distance is", distance)
+print("Your distance is", distance)
 
-
+"""
 
 
 A= float(input("Enter A: "))
@@ -24,7 +24,7 @@ n= float(input("Enter n: "))
 
 #time_function = (math.log((A/P),(1+(r/n))))/n
 
-time_function = (math.log(A/P))/(n*(math.log(1+(r/n))))
+time_function = (((log10(A/P))/(log10(1+(r/n))))/n)
 
 print("t = ", round(time_function, 3))
 
