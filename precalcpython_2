@@ -10,8 +10,8 @@ elif x2-x1 == 0:
 elif y2-y1 == 0 and x2-x1 == 0:
     eq = "There is no line"
 else:
-    m = (y2-y1)/(x2-x1)
-    b = y1-m*x1
+    m = round(((y2-y1)/(x2-x1)), 3)
+    b = round(y1-m*x1, 3)
     eq = ("y = {0}x + {1}".format(m, b))
 
-print(eq)
+print("The equation is "+eq)
