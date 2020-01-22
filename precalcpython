@@ -55,3 +55,5 @@ F = float(input("Enter F: "))
 
 x = (F*B-E*C)/(B*D-E*A)
 y = (F-((D*F*B-D*E*C)/(B*D-E*A)))/E
+
+print("X = {0}  and   Y = {1}".format(x,y))
