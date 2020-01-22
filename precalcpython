@@ -1,7 +1,7 @@
 import math
 from math import log10
 
-"""
+
 x1 = float(input("Enter x1: "))
 y1 = float(input("Enter y1: "))
 x2= float(input("Enter x2: "))
@@ -9,16 +9,16 @@ y2= float(input("Enter y2: "))
 
 distance= (((x2-x1)**2)+((y2-y1)**2))**(.5)
 
-print("Your distance is", distance)
-"""
+#print("Your distance is", distance)
 
 A= float(input("Enter A: "))
 P= float(input("Enter P: "))
 r= float(input("Enter r: "))
 n= float(input("Enter n: "))
 
-#time_function = (math.log((A/P),(1+(r/n))))/r
+#time_function = (math.log((A/P),(1+(r/n))))/n
 
 time_function = (math.log(A/P))/(n*(math.log(1+(r/n))))
 
-print("t = ", time_function)
+#print("t = ", time_function)
+
