@@ -16,6 +16,8 @@ print("Your distance is", distance)
 
 """
 
+
+
 """
 A= float(input("Enter A: "))
 P= float(input("Enter P: "))
@@ -34,3 +36,11 @@ x1 = float(input("Enter x1: "))
 y1 = float(input("Enter y1: "))
 x2= float(input("Enter x2: "))
 y2= float(input("Enter y2: "))
+x3 = float(input("Enter x3: "))
+
+print("The first point is ({0}, {1})".format(x1, y1))
+print("The second point is ({0}, {1}".format(x2, y2))
+
+y3 = (y1*((y2/y1)**((x3-x1)/(x2-x1))))
+
+print("Your third point is ({0}, {1})".format(x3, y3))
