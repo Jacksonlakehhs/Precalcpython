@@ -14,4 +14,4 @@ else:
     b = round(y1-m*x1, 3)
     eq = ("y = {0}x + {1}".format(m, b))
 
-print("The equation is "+eq)
+print("The equation is {0}".format(eq))
