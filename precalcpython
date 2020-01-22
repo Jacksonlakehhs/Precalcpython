@@ -11,6 +11,9 @@ distance= (((x2-x1)**2)+((y2-y1)**2))**(.5)
 
 #print("Your distance is", distance)
 
+
+
+
 A= float(input("Enter A: "))
 P= float(input("Enter P: "))
 r= float(input("Enter r: "))
@@ -22,3 +25,8 @@ time_function = (math.log(A/P))/(n*(math.log(1+(r/n))))
 
 #print("t = ", time_function)
 
+
+
+sidelength1 = float(input("Enter triangle side length #1: "))
+sidelength2 = float(input("Enter triangle side length #2: "))
+sidelength3 = float(input("Enter triangle side length #3: "))
