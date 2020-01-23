@@ -12,6 +12,6 @@ elif y2-y1 == 0 and x2-x1 == 0:
 else:
     m = round(((y2-y1)/(x2-x1)), 3)
     b = round(y1-m*x1, 3)
-    eq = ("y = {0}x + {1}".format(m, b))
+    eq = ("y = {0}x + ({1})".format(m, b))
 
 print("The equation is {0}".format(eq))
