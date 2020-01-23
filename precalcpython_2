@@ -22,11 +22,14 @@ print("The equation is {0}".format(eq))
 """
 
 
-A = float(input("Enter A: "))
-B = float(input("Enter B: "))
-C = float(input("Enter C: "))
+a = float(input("Enter A: "))
+b = float(input("Enter B: "))
+c = float(input("Enter C: "))
 
+x1 = (-b-((b**2)-(4*a*c))**(0.5))/2*a
+x2 = (-b+((b**2)-(4*a*c))**(0.5))/2*a
 
+print("The roots are {0} and {1}".format(x1,x2))
 
 
 
@@ -48,6 +51,6 @@ while correct < 5:
         print("Correct!")
         correct+=1
     else:
-        print("Incorrect.")
+        print("Incorrect. Try again")
         correct = correct
 """
