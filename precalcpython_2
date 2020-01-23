@@ -1,3 +1,7 @@
+import math
+import random
+
+"""
 x1 = float(input("x1: "))
 y1 = float(input("y1: "))
 x2 = float(input("x2: "))
@@ -15,3 +19,35 @@ else:
     eq = ("y = {0}x + ({1})".format(m, b))
 
 print("The equation is {0}".format(eq))
+"""
+
+
+A = float(input("Enter A: "))
+B = float(input("Enter B: "))
+C = float(input("Enter C: "))
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+correct = 0
+
+while correct < 5:
+    x = random.randint(1,12)
+    y = random.randint(1,12)
+    question = float(input(("what is {0} X {1}?".format(x,y))))
+    if question == x*y:
+        print("Correct!")
+        correct+=1
+    else:
+        print("Incorrect.")
+        correct = correct
+"""
