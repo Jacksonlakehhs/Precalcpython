@@ -36,11 +36,11 @@ elif det == 0:
     x1 = -b/(2*a)
     print("The root is {0}".format(x1))
 else:
-    print("The complex roots are {0}+({1})i and {0}-({1})i".format((-b/(2*a)),(-1*(b**2)-(4*a*c))**(.5))
+    print("The complex roots are {0}+({1})i and {0}-({1})i".format((-b/(2*a)), ((-1*(b**2)-(4*a*c))**(.5)))
 
 
 
-#(-1*(b**2)-(4*a*c))**(.5)
+#((-1*(b**2)-(4*a*c))**(.5))
 
 
 
