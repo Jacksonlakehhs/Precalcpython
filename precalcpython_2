@@ -50,9 +50,9 @@ numb = float(input("Enter the number being squared: "))
 
 print("The unsimplified square root is √{0}".format(numb))
 
-if numb % 4 == 0:
-    new_numb = numb * .25
-    print("The simplified square root is 2√{0}".format(new_numb))
+unsimp = trunc(math.sqrt(numb))
+
+print(unsimp)
 
 
 
