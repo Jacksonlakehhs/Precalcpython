@@ -22,6 +22,10 @@ print("The equation is {0}".format(eq))
 """
 
 
+
+
+
+"""
 a = float(input("Enter A: "))
 b = float(input("Enter B: "))
 c = float(input("Enter C: "))
@@ -39,6 +43,19 @@ else:
     real_part = round((-b/(2*a)), 3)
     complex_part = round((-1*((b**2)-(4*a*c)))**(.5), 3)
     print("The complex roots are {0}+({1})i and {0}-({1})i".format(real_part, complex_part))
+"""
+
+
+numb = float(input("Enter the number being squared: "))
+
+print("The unsimplified square root is √{0}".format(numb))
+
+if numb % 4 == 0:
+    new_numb = numb * .25
+    print("The simplified square root is 2√{0}".format(new_numb))
+
+
+
 
 
 
@@ -57,4 +74,7 @@ while correct < 5:
     else:
         print("Incorrect. Try again")
         correct = correct
+if correct == 5:
+    print("You did it! That's five in a row.")
 """
+
