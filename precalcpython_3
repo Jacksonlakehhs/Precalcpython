@@ -14,5 +14,5 @@ elif det == 0:
     print("The root is {0}".format(x1))
 else:
     real_part = round((-b/(2*a)), 3)
-    complex_part = round(((-1*(b**2)-(4*a*c))**(.5)), 3)
+    complex_part = ((-1*(b**2)-(4*a*c))**(.5))
     print("The complex roots are {0}+({1})i and {0}-({1})i".format(real_part, complex_part))
