@@ -26,8 +26,13 @@ a = float(input("Enter A: "))
 b = float(input("Enter B: "))
 c = float(input("Enter C: "))
 
-x1 = (-b-((b**2)-(4*a*c))**(0.5))/2*a
-x2 = (-b+((b**2)-(4*a*c))**(0.5))/2*a
+det = (b**2)-(4*a*c)
+
+if det > 0:
+    x1 = (-b-((b**2)-(4*a*c))**(0.5))/2*a
+    x2 = (-b+((b**2)-(4*a*c))**(0.5))/2*a
+
+
 
 print("The roots are {0} and {1}".format(x1,x2))
 
