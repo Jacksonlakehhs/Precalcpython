@@ -51,13 +51,13 @@ numb = float(input("Enter the number being squared: "))
 pos = math.trunc(math.sqrt(numb))
 
 
-#while numb%pos==0:
- #   if (numb/pos)%
-
-for i in range(2,pos):
-    sq = i**2
-    if (numb % sq) == 0:
-        print(i,"√",(numb/sq))
+if numb-(math.trunc(numb)) > 0:
+    print("The sqrt is √",numb)
+else:
+    for i in range(2,pos):
+        sq = i**2
+        if (numb % sq) == 0:
+            print(i,"√",(numb/sq))
     
 
 
