@@ -48,13 +48,19 @@ else:
 
 numb = float(input("Enter the number being squared: "))
 
-print("The unsimplified square root is √{0}".format(numb))
+#print("The unsimplified square root is √{0}".format(numb))
 
 pos = math.trunc(math.sqrt(numb))
 
 
-while numb%pos==0:
-    if (numb/pos)%
+#while numb%pos==0:
+ #   if (numb/pos)%
+
+for i in range(2,pos):
+    sq = i**2
+    if (numb % sq) == 0:
+        print(i,"√",(numb/sq))
+
 
 
     
