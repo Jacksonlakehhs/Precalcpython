@@ -53,8 +53,12 @@ pos = math.trunc(math.sqrt(numb))
 
 if numb-(math.trunc(numb)) > 0:
     print("The sqrt is √",numb)
-else:
-    for i in range(2,pos):
+
+i = numb
+
+while 
+
+    for i in range(pos, 2):
         sq = i**2
         if (numb % sq) == 0:
             print(i,"√",(numb/sq))
