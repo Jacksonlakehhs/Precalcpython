@@ -58,7 +58,8 @@ i = 1
 
 while numb%(numb-i) != 0:
     i += 1
-    
+    if numb%(numb-i) == 0:
+        print(numb-i)
     
     
 
