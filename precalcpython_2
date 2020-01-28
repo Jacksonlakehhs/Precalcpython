@@ -59,10 +59,11 @@ i = numb
 while numb%(i**2) != 0:
     numb -= 1
     
-    for i in range(pos, 2):
-        sq = i**2
-        if (numb % sq) == 0:
-            print(i,"√",(numb/sq))
+
+#for i in range(pos, 2):
+ #   sq = i**2
+  #  if (numb % sq) == 0:
+   #     print(i,"√",(numb/sq))
     
 
 
