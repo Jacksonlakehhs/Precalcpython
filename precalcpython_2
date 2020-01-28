@@ -61,15 +61,15 @@ while numb%(numb-i) != 0:
     if numb%(numb-i) == 0:
         if (numb-i) - (math.trunc(math.sqrt(numb-i))) == 0:
             print(" The simplified sqrt is {0}√{1}".format(math.sqrt(numb-i), ((numb)/(numb-i))))
-        else:
-            i-=1
-            while numb%(numb-i) != 0:
-                i += 1
-            if numb%(numb-i) == 0:
-                if (numb-i) - (math.trunc(math.sqrt(numb-i))) == 0:
-                    print(" The simplified sqrt is {0}√{1}".format(math.sqrt(numb-i), ((numb)/(numb-i))))
+    else:
+        i-=1
+        while numb%(numb-i) != 0:
+            i += 1
+        if numb%(numb-i) == 0:
+            if (numb-i) - (math.trunc(math.sqrt(numb-i))) == 0:
+                print(" The simplified sqrt is {0}√{1}".format(math.sqrt(numb-i), ((numb)/(numb-i))))
 
-    
+
     
     
     
