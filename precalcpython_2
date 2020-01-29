@@ -61,8 +61,8 @@ for i in range(pos,2,-1):
     elif pos == math.sqrt(numb):
         print("{0}".format(math.sqrt(numb)))
     elif (numb % sq) != 0 and pos != math.sqrt(numb):
-        break
         print("Cannot be simplified: √{0}".format())
+        break
         
 
 
