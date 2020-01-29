@@ -58,6 +58,8 @@ for i in range(pos,2,-1):
     if (numb % sq) == 0:
         print("{0}√{1}".format(i, (numb/sq)))
         break
+    elif pos == math.sqrt(numb):
+        print("{0}".format(math.sqrt(numb)))
 
 
 
