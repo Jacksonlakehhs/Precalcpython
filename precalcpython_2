@@ -53,13 +53,10 @@ pos = math.trunc(math.sqrt(numb))
 
 i = numb
 
-while numb%(i**2) != 0:
-    numb -= 1
-    
-    for i in range(2, pos):
-        sq = i**2
-        if (numb % sq) == 0:
-            print("{0}√{1}".format(i, (numb/sq)))
+for i in range(2, pos):
+    sq = i**2
+    if (numb % sq) == 0:
+        print("{0}√{1}".format(i, (numb/sq)))
     
 
 
