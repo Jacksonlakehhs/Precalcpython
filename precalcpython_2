@@ -53,7 +53,7 @@ pos = math.trunc(math.sqrt(numb))
 
 i = numb
 
-for i in range(2, pos):
+for i in range(pos,2,-1):
     sq = i**2
     if (numb % sq) == 0:
         print("{0}√{1}".format(i, (numb/sq)))
