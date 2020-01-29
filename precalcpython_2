@@ -50,31 +50,20 @@ numb = float(input("Enter the number being squared: "))
 
 pos = math.trunc(math.sqrt(numb))
 
-i = 1
 
-while numb%(numb-i) != 0:
-    i += 1
-    if numb%(numb-i) == 0:
-        if (numb-i) - (math.trunc(math.sqrt(numb-i))) == 0:
-            print(" The simplified sqrt is {0}√{1}".format(math.sqrt(numb-i), ((numb)/(numb-i))))
-    else:
-        i-=1
-        while numb%(numb-i) != 0:
-            i += 1
-            if numb%(numb-i) == 0:
-                if (numb-i) - (math.trunc(math.sqrt(numb-i))) == 0:
-                    print(" The simplified sqrt is {0}√{1}".format(math.sqrt(numb-i), ((numb)/(numb-i))))
+if numb-(math.trunc(numb)) > 0:
+    print("The sqrt is √",numb)
 
+i = numb
 
+while numb%(i**2) != 0:
+    numb -= 1
     
+    for i in range(pos, 2):
+        sq = i**2
+        if (numb % sq) == 0:
+            print(i,"√",(numb/sq))
     
-    
-    
-
-#for i in range(pos, 2):
- #   sq = i**2
-  #  if (numb % sq) == 0:
-   #     print(i,"√",(numb/sq))
     
 
 
